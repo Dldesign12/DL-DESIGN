@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>DL Design | Brend Folije & LED Rješenja</title>
+<meta name="description" content="DL Design - Totemi, LED reklame, brendiranje vozila i fasade u Visokom, Bosna i Hercegovina.">
+
+<link rel="icon" href="logo.png">
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0b0b0b;
+    color: #eee;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid #222;
+}
+
+header img {
+    width: 60px;
+}
+
+nav a {
+    margin: 0 10px;
+    color: #ccc;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+/* HERO */
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: #111;
+    padding: 20px;
+}
+
+.hero h1 {
+    color: gold;
+    font-size: 40px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #222;
+}
+
+/* CONTACT */
+.contact {
+    max-width: 500px;
+    margin: auto;
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #222;
+    color: #666;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <img src="logo.png" alt="DL Design Logo">
+
+    <nav>
+        <a href="#about">O nama</a>
+        <a href="#services">Usluge</a>
+        <a href="#team">Tim</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+    <div>
+        <h1>DIZAJN KOJI SE VIDI</h1>
+        <p>Totemi • LED reklame • Brendiranje vozila • Fasade</p>
+        <a href="#contact" class="btn">Zatraži ponudu</a>
+    </div>
+</div>
+
+<!-- O NAMA -->
+<section id="about">
+    <h2>O nama</h2>
+    <p>
+        DL Design je firma iz Visokog specijalizovana za vizuelni identitet,
+        LED reklame, toteme, brendiranje vozila i fasade.
+        Fokus je na kvaliteti i prepoznatljivosti brenda.
+    </p>
+</section>
+
+<!-- USLUGE -->
+<section id="services">
+    <h2>Usluge</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Totemi</h3>
+            <p>Izrada totema za pumpe i firme.</p>
+        </div>
+
+        <div class="card">
+            <h3>LED / Neon</h3>
+            <p>Svjetleće reklame visoke vidljivosti.</p>
+        </div>
+
+        <div class="card">
+            <h3>Vozila</h3>
+            <p>Brendiranje auta, kombija i kamiona.</p>
+        </div>
+
+        <div class="card">
+            <h3>Fasade</h3>
+            <p>Moderni vizuelni identitet objekata.</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- TIM -->
+<section id="team">
+    <h2>Naš tim</h2>
+
+    <div class="grid">
+
+        <div class="card">
+            <h3>Direktor</h3>
+            <p><strong>Daris Osmanovic</strong></p>
+            <p>Strategija, klijenti i vođenje projekata</p>
+        </div>
+
+        <div class="card">
+            <h3>Operativni direktor</h3>
+            <p><strong>Ensar Smajić</strong></p>
+            <p>Organizacija i upravljanje projektima</p>
+        </div>
+
+        <div class="card">
+            <h3>Dizajner</h3>
+            <p><strong>Anes Juko</strong></p>
+            <p>Grafički dizajn i LED reklame</p>
+        </div>
+
+        <div class="card">
+            <h3>Dizajner</h3>
+            <p><strong>Vedad Dedić</strong></p>
+            <p>3D vizuali, brendiranje vozila i dizajn folija</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- KONTAKT -->
+<section id="contact">
+    <h2>Kontakt</h2>
+
+    <div class="contact">
+
+        <p><strong>📍 Lokacija:</strong> Visoko, Bosna i Hercegovina</p>
+        <p><strong>📞 Telefon:</strong> +387 60 350 0265</p>
+        <p><strong>📧 Email:</strong> darisdldesign@dldesign.ba</p>
+
+        <a class="btn" href="https://wa.me/387603500265">
+            💬 WhatsApp Kontakt
+        </a>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 DL Design — Sva prava zadržana
+</footer>
+
+</body>
+</html>
